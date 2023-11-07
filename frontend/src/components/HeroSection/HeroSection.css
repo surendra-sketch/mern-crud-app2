@@ -1,0 +1,135 @@
+.hero {
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  min-height: 100vh;
+}
+
+.users {
+  /* background-color: #88f2; */
+  margin-bottom: 20px;
+  height: 100%;
+  border: 2px solid #5559;
+  box-shadow: 0px 0px 4px 1px #5559;
+  box-shadow: 0px 0px 7px 2px #0003;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  display: flex;
+
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.user h1 {
+  color: #3d3d3d99;
+  font-size: 2rem;
+}
+.user h3 {
+  color: #5559;
+  font-size: 1rem;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns button {
+  border: none;
+  background-color: #9e2aeb;
+  color: #fff;
+  padding: 10px;
+  opacity: 1;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.btns button:hover {
+  opacity: 0.8;
+}
+
+.btns .del {
+  position: relative;
+  background-color: #ec1480;
+  margin-bottom: 5px;
+}
+.btns .edi {
+  position: relative;
+}
+.btns .del::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -50px;
+  height: 100%;
+  width: 100%;
+}
+
+.btns .del:hover:after {
+  content: "Delete";
+  color: #000;
+}
+
+.btns .edi::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -40px;
+  height: 100%;
+  width: 100%;
+  color: #000;
+}
+.btns .edi:hover:after {
+  content: "Edit";
+  color: #000;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nouser {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.nouser h1 {
+  font-size: 5rem;
+}
+
+.nouser p {
+  text-align: center;
+  color: #9e2aeb;
+  font-size: 2rem;
+}
+
+.nouser p span {
+  color: #ec1480;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    width: 100%;
+    padding: 10px 20px;
+    /* background-color: #5551; */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 80%;
+
+    /* background-color: #f991; */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero {
+    width: 800px;
+
+    /* background-color: #f991; */
+  }
+}

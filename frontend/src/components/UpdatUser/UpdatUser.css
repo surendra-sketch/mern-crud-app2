@@ -1,0 +1,12 @@
+.update {
+  min-height: 80vh;
+}
+.upt {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.upt .cancel {
+  background-color: #ec1480;
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding-top: 100px;
+}
+button {
+  cursor: pointer;
+  padding: 5px 7px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 7px;
+}
